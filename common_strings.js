@@ -90,6 +90,11 @@ export const allstrings ={
     "en": "View",
     "hi": "देखें"
   },
+  VIEW_PROFILE:
+  {
+    "en": "View Profile",
+    "hi": "प्रोफ़ाइल देखें"
+  },
   CLOSE:
   {
     "en": "Close",
