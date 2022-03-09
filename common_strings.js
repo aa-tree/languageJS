@@ -48,6 +48,11 @@ export const allstrings ={
     "en": "Go Back",
     "hi": "वापस जायें"
   },
+  DISCARD_CHANGES:
+  {
+    "en": "Discard Changes",
+    "hi": "परिवर्तनों को निरस्त करें"
+  },
   GO_HOME:
   {
     "en": "Go to Home",
@@ -198,6 +203,16 @@ export const allstrings ={
       "en": "Please enter a new password for your account. The password must be atleast %%VAR%% characters long.",
       "hi": "कृपया अपने अकाउंट के लिए एक नया पासवर्ड दर्ज करें। पासवर्ड कम से कम %%VAR%% अक्षर लंबा होना चाहिए।"
     },
+    PASSWORD_NOT_SET_DISCARD:
+    {
+      "en": "You haven't set a password. You can continue without it, but you will be prompted to set it up the next time you log in. \n \nAre you sure you want to skip setting a password right now?",
+      "hi": "आपने पासवर्ड सेट नहीं किया है। आप इसके बिना आगे बढ़ सकते हैं, लेकिन अगली बार लॉग इन करने पर आपको इसे सेट करने के लिए कहा जाएगा। \n क्या आप वाकई अभी पासवर्ड सेट करना छोड़ना चाहते हैं?"
+    },
+    CONTINUE_SETTING_PASSWORD:
+    {
+      "en": "Continue Setting Password",
+      "hi": "पासवर्ड सेट करना जारी रखें"
+    },
     PASSWORD:
     {
       "en": "Password",
@@ -208,7 +223,11 @@ export const allstrings ={
       "en": "Confirm Password",
       "hi": "पासवर्ड की पुष्टि कीजिये"
     },
-
+    RESET_PASSWORD:
+    {
+      "en": "Reset your password",
+      "hi": "अपना पासवर्ड रीसेट करें"
+    },
     SUBMIT: {
        "en": "Submit",
        "hi": "भेजें"
@@ -595,6 +614,11 @@ export const allstrings ={
   {
     "en": "You need to login to proceed. You will now be redirected to the login page.",
     "hi": "आपको आगे बढ़ने के लिए लॉग इन करने की जरूरत है। अब आप लॉगिन पेज पर भेजे जाएंगे।"
+  },
+  ERROR_YOU_NEED_TO_LOGIN_SIMPLE:
+  {
+    "en": "You need to login to proceed.",
+    "hi": "आपको आगे बढ़ने के लिए लॉग इन करने की जरूरत है।"
   },
   ERROR_TOO_MANY_IMAGES_WITH_NUMBER:
   {

@@ -9,6 +9,10 @@ class LanguageJS {
 
   gSFC(code, lang="en")
   {
+    if(!isValidLangCode(lang))
+    {
+      lang="en"
+    }
     // If user has provided a custom file, read it and prefer it over default.
     if(this.customStrings!=null&&typeof this.customStrings!="undefined")
     {
@@ -54,6 +58,22 @@ class LanguageJS {
   }
 
 
+
 }
 
+export function isValidLangCode(lang)
+{
+  
+  if(lang==""||lang == null)
+  {
+    return false
+  }
+
+  if(typeof(lang)!="string")
+  {
+    return false
+  }
+
+  return true
+}
 export default LanguageJS
