@@ -1,10 +1,11 @@
 import * as common_strings from './common_strings'
-
+import DataLists from './DataLists'
 
 class LanguageJS {
   constructor(customStrings)
   {
     this.customStrings= customStrings
+    this.dataLists=new DataLists()
   }
 
   gSFC(code, lang="en")

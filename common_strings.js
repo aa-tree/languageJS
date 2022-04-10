@@ -8,6 +8,11 @@ export const allstrings ={
     "en": "Ok",
     "hi": "ठीक"
   },
+  ADD:
+  {
+    "en": "Add",
+    "hi": "जोड़ें"
+  },
   CANCEL:
   {
     "en": "Cancel",
@@ -32,6 +37,11 @@ export const allstrings ={
   {
     "en": "Change",
     "hi": "बदलें"
+  },
+  INPUT:
+  {
+    "en": "Input",
+    "hi": "इनपुट"
   },
   CHOOSE_ONE:
   {
@@ -223,6 +233,36 @@ export const allstrings ={
       "en": "Confirm Password",
       "hi": "पासवर्ड की पुष्टि कीजिये"
     },
+    CLICK_TO_SCAN:
+    {
+      "en": "Click to Scan",
+      "hi": "स्कैन के लिए क्लिक करें"
+    },
+    CONFIRM_PICTURE:
+    {
+      "en": "Confirm Picture",
+      "hi": "चित्र की पुष्टि करें"
+    },
+    PERMISSION_REQUEST:
+    {
+      "en": "Permission Request",
+      "hi": "अनुमति अनुरोध"
+    }, 
+    PERMISSION_REQUEST_CAMERA:
+    {
+      "en": "Please grant to use your camera to proceed.",
+      "hi": "कृपया आगे बढ़ने के लिए अपने कैमरे का उपयोग करने की अनुमति दें।"
+    },
+    CONFIRM_SCANNED_CODE:
+    {
+      "en": "Confirm Scanned Code",
+      "hi": "स्कैन किए गए कोड की पुष्टि करें"
+    },
+    CONFIRM_SCANNED_DESC:
+    {
+      "en": "Scanned code:",
+      "hi": "आपके द्वारा स्कैन किया गया कोड:"
+    },
     RESET_PASSWORD:
     {
       "en": "Reset your password",
@@ -240,6 +280,11 @@ export const allstrings ={
     {
       "en": "Delete",
       "hi": "हटाएं"
+    },
+    DELETE_SUCCESSFUL:
+    {
+      "en": "Delete Successful",
+      "hi": "सफलतापूर्वक हटाया गया"
     },
     RETRY: {
       "en": "Retry",
@@ -259,6 +304,26 @@ export const allstrings ={
     {
       "en": "State",
       "hi": "राज्य"
+    },
+    SEX:
+    {
+      "en": "Sex",
+      "hi": "लिंग"
+    },
+    AGE:
+    {
+      "en": "Age",
+      "hi": "आयु"
+    },
+    AGE_YEARS:
+    {
+      "en": "Years",
+      "hi": "वर्ष"
+    },
+    AGE_MONTHS:
+    {
+      "en": "Months",
+      "hi": "महीने"
     },
     DISTRICT:
     {
@@ -304,6 +369,11 @@ export const allstrings ={
     {
       "en": "Images",
       "hi": "चित्र"
+    },
+    TAKE_PICTURE:
+    {
+      "en": "Take Picture",
+      "hi": "तस्वीर लें"
     },
     DELETE_IMAGE:
     {
@@ -485,7 +555,12 @@ export const allstrings ={
   {
     "en": "Cats",
     "hi": "बिल्ली"
-  },  
+  }, 
+  BREED:
+  {
+    "en": "Breed",
+    "hi": "नस्ल"
+  }, 
   SEARCH_QUERY:
   {
     "en": "Search Query",
@@ -511,7 +586,22 @@ export const allstrings ={
       "en": "Enter Information",
       "hi": "जानकारी दर्ज करें"
      },
-
+  DETAILS_SAVES_SUCCESSFULLY:
+  {
+    "en": "Details saved successfully.",
+    "hi": "विवरण सफलतापूर्वक सहेजा गया।" 
+  },
+  DETAILS_SAVED_SUCCESSFULLY:
+  {
+    "en": "Details saved successfully.",
+    "hi": "विवरण सफलतापूर्वक सहेजा गया।" 
+  },
+  SAVING:
+  {
+    "en": "Saving...",
+    "hi": "सहेजा जा रहा है..." 
+  },
+  
      /**
       * SOCIAL MEDIA AND THIRD PARTY
       */
@@ -530,6 +620,7 @@ export const allstrings ={
     "en": "Instagram",
     "hi": "इंस्टाग्राम" 
   },
+  
    /**
     * Error Messages
     */
@@ -541,6 +632,16 @@ export const allstrings ={
   ERROR_GENERIC: {
     "en": "Something went wrong. Please try again later.",
     "hi": "कृप्या बाद में पुन: प्रयास करें।"
+  },
+  ERROR_NETWORK_ERROR:
+  {
+    "en": "Can't connect to our servers. Please check your internet connection.",
+    "hi": "हम अपने सर्वर तक नहीं पहुंच सकते। कृपया अपने इंटरनेट कनेक्शन की जाँच करें।"
+  },
+  ERROR_CANT_CONNECT_TO_SERVER:
+  {
+    "en": "Can't connect to our servers.",
+    "hi": "हम अपने सर्वर तक नहीं पहुंच सकते।"
   },
   ERROR_DEAD_PAGE:
   {
@@ -659,6 +760,11 @@ export const allstrings ={
   {
     "en": "Please enter a district name.",
     "hi": "जिले का नाम दर्ज करें।"
+  },
+  ERROR_ENTER_A_NAME:
+  {
+    "en": "Please enter a name.",
+    "hi": "कृपया एक नाम दर्ज करें।"
   },
   }
   ;
