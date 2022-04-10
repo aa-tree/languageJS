@@ -8,6 +8,11 @@ export const allstrings ={
     "en": "Ok",
     "hi": "ठीक"
   },
+  ADD:
+  {
+    "en": "Add",
+    "hi": "जोड़ें"
+  },
   CANCEL:
   {
     "en": "Cancel",
@@ -33,6 +38,11 @@ export const allstrings ={
     "en": "Change",
     "hi": "बदलें"
   },
+  INPUT:
+  {
+    "en": "Input",
+    "hi": "इनपुट"
+  },
   CHOOSE_ONE:
   {
     "en": "Please select an option.",
@@ -47,6 +57,11 @@ export const allstrings ={
   {
     "en": "Go Back",
     "hi": "वापस जायें"
+  },
+  DISCARD_CHANGES:
+  {
+    "en": "Discard Changes",
+    "hi": "परिवर्तनों को निरस्त करें"
   },
   GO_HOME:
   {
@@ -203,6 +218,16 @@ export const allstrings ={
       "en": "Please enter a new password for your account. The password must be atleast %%VAR%% characters long.",
       "hi": "कृपया अपने अकाउंट के लिए एक नया पासवर्ड दर्ज करें। पासवर्ड कम से कम %%VAR%% अक्षर लंबा होना चाहिए।"
     },
+    PASSWORD_NOT_SET_DISCARD:
+    {
+      "en": "You haven't set a password. You can continue without it, but you will be prompted to set it up the next time you log in. \n \nAre you sure you want to skip setting a password right now?",
+      "hi": "आपने पासवर्ड सेट नहीं किया है। आप इसके बिना आगे बढ़ सकते हैं, लेकिन अगली बार लॉग इन करने पर आपको इसे सेट करने के लिए कहा जाएगा। \n क्या आप वाकई अभी पासवर्ड सेट करना छोड़ना चाहते हैं?"
+    },
+    CONTINUE_SETTING_PASSWORD:
+    {
+      "en": "Continue Setting Password",
+      "hi": "पासवर्ड सेट करना जारी रखें"
+    },
     PASSWORD:
     {
       "en": "Password",
@@ -213,7 +238,41 @@ export const allstrings ={
       "en": "Confirm Password",
       "hi": "पासवर्ड की पुष्टि कीजिये"
     },
-
+    CLICK_TO_SCAN:
+    {
+      "en": "Click to Scan",
+      "hi": "स्कैन के लिए क्लिक करें"
+    },
+    CONFIRM_PICTURE:
+    {
+      "en": "Confirm Picture",
+      "hi": "चित्र की पुष्टि करें"
+    },
+    PERMISSION_REQUEST:
+    {
+      "en": "Permission Request",
+      "hi": "अनुमति अनुरोध"
+    }, 
+    PERMISSION_REQUEST_CAMERA:
+    {
+      "en": "Please grant to use your camera to proceed.",
+      "hi": "कृपया आगे बढ़ने के लिए अपने कैमरे का उपयोग करने की अनुमति दें।"
+    },
+    CONFIRM_SCANNED_CODE:
+    {
+      "en": "Confirm Scanned Code",
+      "hi": "स्कैन किए गए कोड की पुष्टि करें"
+    },
+    CONFIRM_SCANNED_DESC:
+    {
+      "en": "Scanned code:",
+      "hi": "आपके द्वारा स्कैन किया गया कोड:"
+    },
+    RESET_PASSWORD:
+    {
+      "en": "Reset your password",
+      "hi": "अपना पासवर्ड रीसेट करें"
+    },
     SUBMIT: {
        "en": "Submit",
        "hi": "भेजें"
@@ -226,6 +285,11 @@ export const allstrings ={
     {
       "en": "Delete",
       "hi": "हटाएं"
+    },
+    DELETE_SUCCESSFUL:
+    {
+      "en": "Delete Successful",
+      "hi": "सफलतापूर्वक हटाया गया"
     },
     RETRY: {
       "en": "Retry",
@@ -245,6 +309,26 @@ export const allstrings ={
     {
       "en": "State",
       "hi": "राज्य"
+    },
+    SEX:
+    {
+      "en": "Sex",
+      "hi": "लिंग"
+    },
+    AGE:
+    {
+      "en": "Age",
+      "hi": "आयु"
+    },
+    AGE_YEARS:
+    {
+      "en": "Years",
+      "hi": "वर्ष"
+    },
+    AGE_MONTHS:
+    {
+      "en": "Months",
+      "hi": "महीने"
     },
     DISTRICT:
     {
@@ -290,6 +374,11 @@ export const allstrings ={
     {
       "en": "Images",
       "hi": "चित्र"
+    },
+    TAKE_PICTURE:
+    {
+      "en": "Take Picture",
+      "hi": "तस्वीर लें"
     },
     DELETE_IMAGE:
     {
@@ -471,7 +560,12 @@ export const allstrings ={
   {
     "en": "Cats",
     "hi": "बिल्ली"
-  },  
+  }, 
+  BREED:
+  {
+    "en": "Breed",
+    "hi": "नस्ल"
+  }, 
   SEARCH_QUERY:
   {
     "en": "Search Query",
@@ -497,7 +591,22 @@ export const allstrings ={
       "en": "Enter Information",
       "hi": "जानकारी दर्ज करें"
      },
-
+  DETAILS_SAVES_SUCCESSFULLY:
+  {
+    "en": "Details saved successfully.",
+    "hi": "विवरण सफलतापूर्वक सहेजा गया।" 
+  },
+  DETAILS_SAVED_SUCCESSFULLY:
+  {
+    "en": "Details saved successfully.",
+    "hi": "विवरण सफलतापूर्वक सहेजा गया।" 
+  },
+  SAVING:
+  {
+    "en": "Saving...",
+    "hi": "सहेजा जा रहा है..." 
+  },
+  
      /**
       * SOCIAL MEDIA AND THIRD PARTY
       */
@@ -516,6 +625,7 @@ export const allstrings ={
     "en": "Instagram",
     "hi": "इंस्टाग्राम" 
   },
+  
    /**
     * Error Messages
     */
@@ -527,6 +637,16 @@ export const allstrings ={
   ERROR_GENERIC: {
     "en": "Something went wrong. Please try again later.",
     "hi": "कृप्या बाद में पुन: प्रयास करें।"
+  },
+  ERROR_NETWORK_ERROR:
+  {
+    "en": "Can't connect to our servers. Please check your internet connection.",
+    "hi": "हम अपने सर्वर तक नहीं पहुंच सकते। कृपया अपने इंटरनेट कनेक्शन की जाँच करें।"
+  },
+  ERROR_CANT_CONNECT_TO_SERVER:
+  {
+    "en": "Can't connect to our servers.",
+    "hi": "हम अपने सर्वर तक नहीं पहुंच सकते।"
   },
   ERROR_DEAD_PAGE:
   {
@@ -601,6 +721,11 @@ export const allstrings ={
     "en": "You need to login to proceed. You will now be redirected to the login page.",
     "hi": "आपको आगे बढ़ने के लिए लॉग इन करने की जरूरत है। अब आप लॉगिन पेज पर भेजे जाएंगे।"
   },
+  ERROR_YOU_NEED_TO_LOGIN_SIMPLE:
+  {
+    "en": "You need to login to proceed.",
+    "hi": "आपको आगे बढ़ने के लिए लॉग इन करने की जरूरत है।"
+  },
   ERROR_TOO_MANY_IMAGES_WITH_NUMBER:
   {
     "en": "You can only upload %%VAR%% image(s).",
@@ -640,6 +765,11 @@ export const allstrings ={
   {
     "en": "Please enter a district name.",
     "hi": "जिले का नाम दर्ज करें।"
+  },
+  ERROR_ENTER_A_NAME:
+  {
+    "en": "Please enter a name.",
+    "hi": "कृपया एक नाम दर्ज करें।"
   },
   }
   ;
